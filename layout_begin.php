@@ -33,6 +33,9 @@
     <link href="node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
  	<!-- estilo CSS -->
 	<link rel="stylesheet" type="text/css" href="node_modules/style.css">
+	<!-- Mascaras Jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.mask.min.js"></script>
 </head>
 <body>
 

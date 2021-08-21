@@ -4,16 +4,18 @@
 ?>
 <!DOCTYPE html>
 
-
 <section class="container">
-		<div class="row mt-5">
+	<div class="row">
+		<div class="col-12">
+			
+	<div class="row mt-5">
 		<div class="col-xs-12  col-md-2 md-offset-8 " style="border: 1px solid black; padding: 5px; box-shadow: 2px 2px 2px black;border-radius: 5px;">
 				<div style="text-align:center;">
 					<a class="selecione" href="cad_processo.php"><p>Register</p></a>
 					<a class="selecione" href="con_ramax.php"><p style="padding:5px ;background: lightgrey;">Search</p></a>	
 				</div>
 		</div>
-
+	</div>
 
 	<div class="row">
 		<div class="col-xs-12 col-md-12">
@@ -75,6 +77,9 @@
 			</div>				
 		</div>
 	</div>
+		</div>
+	</div>
+
 </section>
 
 	

@@ -76,7 +76,7 @@
 
 							<div class="col-xs-12 col-md-2">
 								<label>Financiadora</label>
-								<select class="form-control"  name="txt_financiadora" maxlength="10" id="txt_financiadora" ><option value="não há">Não há</option><option value="ROI">ROI</option><option value="TW">TW</option></select>
+								<select class="form-control"  name="txt_financiadora" maxlength="10" id="txt_financiadora" ><option value="não há">Dont have</option><option value="ROI">ROI</option><option value="TW">TW</option></select>
 							</div>
 
 							<div class="col-xs-12 col-md-2">
@@ -194,7 +194,7 @@
 							</div>
 
 							<div class="col-xs-12 col-md-3" >
-								<label>PICKUP DEST</label><select class="form-control" name="txt_dest" id="txt_dest"><option>TIRADO</option><option>NÃO RETIRADO</option></select>
+								<label>PICKUP DEST</label><select class="form-control" name="txt_dest" id="txt_dest"><option>withdrawn</option><option>not withdrawn</option></select>
 							</div>	
 					</div>
 
@@ -224,5 +224,16 @@
 
 </body>
 </html>
+
+<script type="text/javascript" language="javascript">
+
+
+	$(document).ready(function(){
+         $('#txt_sales').mask("00/00/0000");
+         $('#txt_etd').mask("00/00/0000");
+         $('#txt_eta').mask("00/00/0000");
+        
+      }); 
+</script> 
 
    

@@ -58,7 +58,7 @@
 							</div>
 							<div class="col-xs-12 col-md-4">
 								<label>Filter by:</label>
-								<select class="form-control" name="txt_opcoes2" id="txt_opcoes2"><option value="customer">Customer</option><option value="seller">Seller</option><option value="buyer" checked>Buyer</option><option value="goods">Goods</option><option value="packer">PACKER</option></select> 
+								<select class="form-control" name="txt_opcoes2" id="txt_opcoes2"><option value="customer">Customer</option><option value="seller">Seller</option><option value="buyer" checked>Buyer</option><option value="goods">Goods</option><option value="responsavel">Responsible</option><option value="packer">PACKER</option></select> 
 							</div>
 						</div>
 						<div class="row justify-content-end mt-3" style="margin-left:100px">

@@ -29,7 +29,7 @@
 	      	<ul class="navbar-nav">
 
 		        <li class="nav-item">
-		          <a  class="nav-link "href="#" style="margin-left: 1000px;">Usuario</a>
+		          <a  class="nav-link "href="#" style="margin-left: 1000px;">User</a>
 		        </li>
 		    
 		    
@@ -44,11 +44,11 @@
 				<div class="row">
 					<div class="offset-md-4 col-md-4 offset-xs-2 col-xs-8 mt-6" id="formulario">
 						<form 	method="POST"	action="login.php" >
-							<label>Usuario:</label>
+							<label>User:</label>
 							<input type="email" name="txt_usuario" id="txt_usuario" class="form-control" >
 							<label>Password:</label>
 							<input type="password" name="txt_senha" id="txt_senha" class="form-control">
-							<button type="submit" class="btn btn-primary mt-4 ">Confirmar</button>
+							<button type="submit" class="btn btn-primary mt-4 ">Confirm</button>
 						</form>
 					</div>	
 				</div>
